@@ -1,5 +1,15 @@
 /* Barra de navegacion */
 
+
+.nav-item:hover {
+  font-weight: bold;
+}
+
+.active{
+  color: #26acb8 !important;
+  font-weight: bold;
+}
+
 .navbar {
   padding: 2rem;
   background-color: #f5f6f7;
@@ -11,6 +21,24 @@
 }
 
 /* Estilos generales */
+.verdesito{
+  background-color: #52999a !important;
+  color: black;
+  
+}
+
+.btnVerde{
+  background-color: #154757 !important;
+  color: rgb(255, 255, 255);
+  font-family: 'Rubik', sans-serif;
+  border: none;
+}
+
+.btnVerde:hover{
+  background-color: #2585a4 !important;
+  color: rgb(255, 255, 255);
+  font-family: 'Rubik', sans-serif;
+}
 
 section {
   display: flex;
@@ -26,7 +54,7 @@ h1 {
 
 .seccion-oscura {
   color: white;
-  background-color: #1b1b32;
+  background-color: #154757;
 }
 
 .seccion-clara {
@@ -89,17 +117,20 @@ h1 {
 .sobre-mi {
   height: 500px;
   padding: 10px;
+  font-family: 'Rubik', sans-serif;
 }
 
 .sobre-mi .contenedor {
   max-width: 600px;
   text-align: center;
+  
 }
 
 /* Experiencia */
 
 .experiencia {
   padding: 40px 40px 60px 40px;
+  font-family: 'Rubik', sans-serif;
 }
 
 .experiencia .columna {
@@ -119,7 +150,7 @@ h1 {
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
+  color: #95c4ba;
   background-color: #0a0a23;
   padding: 8px 19px;
   border-radius: 50%;
@@ -212,6 +243,18 @@ h1 {
   margin: 20px;
 }
 
+.card{
+  font-family: 'Rubik', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
 .articulos .card-header {
   font-weight: bold;
 }
@@ -249,7 +292,7 @@ h1 {
   max-width: 70%;
   font-size: 20px;
   text-align: center;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Rubik', sans-serif;
 }
 
 .testimonio-info {
@@ -280,7 +323,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color:#6f9f96;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -294,6 +337,7 @@ h1 {
 .contacto .descripcion {
   color: white;
   font-size: 1.2rem;
+  font-family: 'Rubik', sans-serif;
 }
 
 .contacto button {
@@ -338,8 +382,7 @@ footer {
   font-size: 1.5rem;
   padding: 20px;
   margin-bottom: 30px;
-  font-family: 'Quicksand', sans-serif;
-}
+  font-family: 'Rubik', sans-serif;}
 
 .iconos-redes-sociales a {
   width: 50px;
@@ -409,3 +452,4 @@ footer {
     max-width: 600px;
   }
 }
+
